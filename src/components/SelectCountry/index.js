@@ -11,10 +11,10 @@ const SelectCountry = () => {
   }, [dispatch]);
 
   return (
-    <div className="mt-5 text-center">
+    <div className="mt-3 text-center">
       <h1 className="text-lg text-gray-500 mb-3">Pilih Negara</h1>
       <select
-        value={country}
+        value={country.name}
         onChange={e => dispatch(setCountry(e.target.value))}
         className="px-5 py-1 border">
         <option value="">Dunia</option>

@@ -5,7 +5,7 @@ import CardCases from './components/CardCases';
 
 function App() {
   return (
-    <div className="container max-h-screen mx-auto px-4 mt-4">
+    <div className="container relative mx-auto px-4 mt-3">
       <Header />
       <SelectCountry />
       <CardCases />

@@ -4,7 +4,17 @@ export const SET_DATA = 'SET_DATA';
 
 const initialState = {
   data: [],
-  country: 'Indonesia',
+  country: {
+    name: 'Indonesia',
+    image: 'https://disease.sh/assets/img/flags/id.png',
+    active: 0,
+    cases: 0,
+    todayCases: 0,
+    recovered: 0,
+    todayRecovered: 0,
+    deaths: 0,
+    todayDeaths: 0,
+  },
   countries: [],
   timeUpdate: new Date().getTime(),
 };
