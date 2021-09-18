@@ -35,7 +35,7 @@ const CardCases = () => {
           bgColor="bg-green-200"
         />
         <CardCaseItem
-          title="Kasus Meinggal"
+          title="Kasus Meninggal"
           data={data.deaths}
           increment={data.todayDeaths}
           bgColor="bg-red-200"
