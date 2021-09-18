@@ -1,3 +1,20 @@
+# Jejak Covid
+
+### Webiste Informasi data terbaru covid-19 di seluruh dunia
+
+![Jejak Covid](docs.png)
+
+#### Fitur:
+
+- Data covid Dunia
+- Data Covid dari berbagai negara
+- Data Kasus Harian
+
+#### Tools
+
+- ReactJS
+- TailwindCSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
