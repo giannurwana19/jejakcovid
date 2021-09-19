@@ -19,7 +19,7 @@ const CardCaseItem = ({
     </h2>
     {isActiveCase || (
       <small className="text-xs font-bold px-2 rounded-lg bg-gray-500 text-gray-100">
-        +
+        {increment > 0 && '+'}
         <CountUp start={0} end={increment} duration={2} separator="," />
       </small>
     )}
