@@ -2,7 +2,7 @@
 
 ### Webiste Informasi data terbaru covid-19 di seluruh dunia
 
-![Jejak Covid](docs.png)
+![Jejak Covid](image-docs.png)
 
 #### Fitur:
 
