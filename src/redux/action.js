@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { SET_COUNTRIES, SET_COUNTRY, SET_DATA } from './reducer';
+import { SET_COUNTRIES, SET_COUNTRY, SET_DARKMODE, SET_DATA } from './reducer';
 
 export const fetchData = paramCountry => async dispatch => {
   let url = 'https://disease.sh/v3/covid-19/all';
@@ -43,4 +43,10 @@ export const setCountry = country => async dispatch => {
       todayDeaths: data.todayDeaths,
     },
   });
+};
+
+export const setDarkMode = isDark => dispatch => {
+  localStorage.setItem('isDarkMode', isDark);
+
+  dispatch({ type: SET_DARKMODE, payload: isDark });
 };

@@ -12,7 +12,9 @@ const SelectCountry = () => {
 
   return (
     <div className="mt-3 text-center">
-      <h1 className="text-lg text-gray-500 mb-3">Pilih Negara</h1>
+      <h1 className="text-lg text-gray-500 dark:text-gray-200 mb-3">
+        Pilih Negara
+      </h1>
       <select
         value={country.name}
         onChange={e => dispatch(setCountry(e.target.value))}

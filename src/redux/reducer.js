@@ -1,6 +1,7 @@
 export const SET_COUNTRY = 'SET_COUNTRY';
 export const SET_COUNTRIES = 'SET_COUNTRIES';
 export const SET_DATA = 'SET_DATA';
+export const SET_DARKMODE = 'SET_DARKMODE';
 
 const initialState = {
   data: [],
@@ -17,6 +18,7 @@ const initialState = {
   },
   countries: [],
   timeUpdate: new Date().getTime(),
+  darkMode: JSON.parse(localStorage.getItem('isDarkMode')) || false,
 };
 
 const reducer = (state = initialState, action) => {
@@ -36,6 +38,11 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         countries: action.payload,
+      };
+    case SET_DARKMODE:
+      return {
+        ...state,
+        darkMode: action.payload,
       };
     default:
       return state;

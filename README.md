@@ -1,19 +1,22 @@
-# Jejak Covid
+#  Jejak Covid ✨✨
 
-### Webiste Informasi data terbaru covid-19 di seluruh dunia
+## Webiste Informasi data terbaru covid-19 di seluruh dunia
 
-![Jejak Covid](image-docs.png)
+![Jejak Covid](public/dark-mode-jejakcovid.png)
 
-#### Fitur:
+#### Feature:
 
 - Data covid Dunia
 - Data Covid dari berbagai negara
 - Data Kasus Harian
+- Now Support Dark Mode! (New Feature) 12 Nov 2021 😎
 
 #### Tools
 
 - ReactJS
 - TailwindCSS
+
+Available on: [https://jejakcovid.vercel.app](https://jejakcovid.vercel.app)
 
 # Getting Started with Create React App
 

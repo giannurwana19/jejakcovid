@@ -12,14 +12,14 @@ const CardCases = () => {
   }, [country, dispatch]);
 
   return (
-    <div className="mt-3 flex-1">
+    <div className="mt-3 flex-1 ">
       <div className="text-center flex justify-center items-center">
         <img
           src={country.image}
           className="inline-block my-2 object-fit w-10 h-7"
           alt={country.name}
         />
-        <h2 className="text-xl md:text-2xl ml-3 font-bold text-gray-700 text-center">
+        <h2 className="text-xl md:text-2xl ml-3 font-bold text-gray-700 dark:text-gray-200 text-center">
           {country?.name ? country?.name : 'Dunia'}
         </h2>
       </div>
